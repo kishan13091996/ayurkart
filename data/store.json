@@ -1,0 +1,1089 @@
+{
+  "version": 1,
+  "updatedAt": 1,
+  "settings": {
+    "appName": "AyurKart",
+    "tagline": "Authentic Ayurvedic Wellness",
+    "logoEmoji": "🌿",
+    "logoUrl": "",
+    "accent": "#2F8F5B",
+    "announcement": "Free delivery on orders above ₹499 · Cash on Delivery available",
+    "ownerEmail": "",
+    "ownerPhone": "",
+    "whatsapp": "",
+    "address": "Your shop address, City, State, PIN",
+    "gstin": "",
+    "currency": "₹",
+    "freeShippingAbove": 499,
+    "shippingFee": 49,
+    "codFee": 0,
+    "paymentsEnabled": false,
+    "payMethods": {
+      "cod": true,
+      "upi": true,
+      "qr": true,
+      "card": true
+    },
+    "upiId": "",
+    "upiName": "",
+    "qrImage": "",
+    "razorpayKey": "",
+    "email": {
+      "serviceId": "",
+      "templateId": "",
+      "publicKey": ""
+    },
+    "invoiceNote": "Thank you for shopping with us. Ayurvedic products support general wellness and are not a substitute for medical advice.",
+    "aboutText": "We bring time-tested Ayurvedic formulations to your home. Every product is sourced from trusted herbs, prepared with traditional methods and tested for quality, so you can follow your wellness routine with confidence."
+  },
+  "categories": [
+    {
+      "id": "immunity",
+      "name": "Immunity",
+      "icon": "🛡️",
+      "description": "Daily rasayana for everyday strength",
+      "active": true
+    },
+    {
+      "id": "digestion",
+      "name": "Digestive Care",
+      "icon": "🍃",
+      "description": "Gentle support for a happy gut",
+      "active": true
+    },
+    {
+      "id": "stress-sleep",
+      "name": "Stress & Sleep",
+      "icon": "🌙",
+      "description": "Calm the mind, rest deeply",
+      "active": true
+    },
+    {
+      "id": "hair-skin",
+      "name": "Hair & Skin",
+      "icon": "✨",
+      "description": "Traditional oils and herbs for natural glow",
+      "active": true
+    },
+    {
+      "id": "joint-care",
+      "name": "Joint & Muscle",
+      "icon": "💪",
+      "description": "Comfort for active bodies",
+      "active": true
+    },
+    {
+      "id": "tonics",
+      "name": "Tonics & Juices",
+      "icon": "🥤",
+      "description": "Pure herbal juices and wellness tonics",
+      "active": true
+    }
+  ],
+  "products": [
+    {
+      "id": "chyawanprash",
+      "name": "Classic Chyawanprash",
+      "categoryId": "immunity",
+      "brand": "Ayur Naturals",
+      "shortDesc": "A traditional Ayurvedic rasayana made with amla and 40+ herbs.",
+      "description": "Classic Chyawanprash is a time-honoured Ayurvedic preparation, slow-cooked with fresh amla, ghee, honey and a blend of traditional herbs. It is traditionally taken daily to support natural immunity and everyday vitality for the whole family.",
+      "images": [
+        "images/products/chyawanprash.svg"
+      ],
+      "price": 349,
+      "mrp": 399,
+      "gst": 5,
+      "unit": "500 g",
+      "stock": 65,
+      "featured": true,
+      "active": true,
+      "specs": [
+        {
+          "label": "Form",
+          "value": "Paste"
+        },
+        {
+          "label": "Net quantity",
+          "value": "500 g"
+        },
+        {
+          "label": "Shelf life",
+          "value": "36 months from manufacture"
+        },
+        {
+          "label": "Diet type",
+          "value": "Vegetarian"
+        },
+        {
+          "label": "Country of origin",
+          "value": "India"
+        },
+        {
+          "label": "Storage",
+          "value": "Store in a cool, dry place away from sunlight"
+        }
+      ],
+      "ingredients": "Amla, Ashwagandha, Guduchi, Pippali, Shatavari, Cardamom, Cinnamon, Ghee, Honey",
+      "usage": "1 to 2 teaspoons once or twice daily, preferably with warm milk. Children above 5 years: 1 teaspoon daily.",
+      "tags": [
+        "immunity",
+        "paste"
+      ]
+    },
+    {
+      "id": "giloy-juice",
+      "name": "Giloy Juice",
+      "categoryId": "immunity",
+      "brand": "Ayur Naturals",
+      "shortDesc": "Pure Giloy (Guduchi) stem juice, no added sugar.",
+      "description": "Cold-extracted juice of the Giloy (Tinospora cordifolia) stem. Traditionally used in Ayurveda as a rasayana to support the body's natural defence and overall wellness.",
+      "images": [
+        "images/products/giloy-juice.svg"
+      ],
+      "price": 399,
+      "mrp": 449,
+      "gst": 5,
+      "unit": "1 L",
+      "stock": 60,
+      "featured": false,
+      "active": true,
+      "specs": [
+        {
+          "label": "Form",
+          "value": "Juice"
+        },
+        {
+          "label": "Net quantity",
+          "value": "1 L"
+        },
+        {
+          "label": "Shelf life",
+          "value": "36 months from manufacture"
+        },
+        {
+          "label": "Diet type",
+          "value": "Vegetarian"
+        },
+        {
+          "label": "Country of origin",
+          "value": "India"
+        },
+        {
+          "label": "Storage",
+          "value": "Store in a cool, dry place away from sunlight"
+        }
+      ],
+      "ingredients": "Giloy (Guduchi) stem extract",
+      "usage": "20 to 30 ml with an equal quantity of water, once or twice daily on an empty stomach.",
+      "tags": [
+        "immunity",
+        "juice"
+      ]
+    },
+    {
+      "id": "tulsi-drops",
+      "name": "Tulsi Drops (Holy Basil)",
+      "categoryId": "immunity",
+      "brand": "Ayur Naturals",
+      "shortDesc": "Concentrated Tulsi extract drops for tea or warm water.",
+      "description": "A concentrated extract of five varieties of Tulsi. Add a few drops to warm water, tea or kadha for a refreshing herbal routine.",
+      "images": [
+        "images/products/tulsi-drops.svg"
+      ],
+      "price": 169,
+      "mrp": 199,
+      "gst": 5,
+      "unit": "30 ml",
+      "stock": 60,
+      "featured": false,
+      "active": true,
+      "specs": [
+        {
+          "label": "Form",
+          "value": "Drops"
+        },
+        {
+          "label": "Net quantity",
+          "value": "30 ml"
+        },
+        {
+          "label": "Shelf life",
+          "value": "36 months from manufacture"
+        },
+        {
+          "label": "Diet type",
+          "value": "Vegetarian"
+        },
+        {
+          "label": "Country of origin",
+          "value": "India"
+        },
+        {
+          "label": "Storage",
+          "value": "Store in a cool, dry place away from sunlight"
+        }
+      ],
+      "ingredients": "Rama Tulsi, Krishna Tulsi, Vana Tulsi, Amrita Tulsi, Kapoor Tulsi",
+      "usage": "4 to 5 drops in a cup of warm water or tea, once or twice daily.",
+      "tags": [
+        "immunity",
+        "drops"
+      ]
+    },
+    {
+      "id": "triphala-churna",
+      "name": "Triphala Churna",
+      "categoryId": "digestion",
+      "brand": "Ayur Naturals",
+      "shortDesc": "Classic blend of Amalaki, Bibhitaki and Haritaki.",
+      "description": "Triphala is among the most trusted Ayurvedic formulations, combining three fruits in equal proportion. It is traditionally used to support regular digestion and gentle cleansing.",
+      "images": [
+        "images/products/triphala-churna.svg"
+      ],
+      "price": 199,
+      "mrp": 249,
+      "gst": 5,
+      "unit": "200 g",
+      "stock": 45,
+      "featured": true,
+      "active": true,
+      "specs": [
+        {
+          "label": "Form",
+          "value": "Powder"
+        },
+        {
+          "label": "Net quantity",
+          "value": "200 g"
+        },
+        {
+          "label": "Shelf life",
+          "value": "36 months from manufacture"
+        },
+        {
+          "label": "Diet type",
+          "value": "Vegetarian"
+        },
+        {
+          "label": "Country of origin",
+          "value": "India"
+        },
+        {
+          "label": "Storage",
+          "value": "Store in a cool, dry place away from sunlight"
+        }
+      ],
+      "ingredients": "Amalaki, Bibhitaki, Haritaki",
+      "usage": "1 teaspoon with warm water at bedtime, or as directed by your Ayurvedic physician.",
+      "tags": [
+        "digestion",
+        "powder"
+      ]
+    },
+    {
+      "id": "hingvashtak",
+      "name": "Hingvashtak Churna",
+      "categoryId": "digestion",
+      "brand": "Ayur Naturals",
+      "shortDesc": "Traditional spice-based digestive churna.",
+      "description": "A classical blend of hing (asafoetida), ginger, black pepper, long pepper, ajwain, cumin and rock salt, traditionally taken after meals to support comfortable digestion.",
+      "images": [
+        "images/products/hingvashtak.svg"
+      ],
+      "price": 149,
+      "mrp": 179,
+      "gst": 5,
+      "unit": "100 g",
+      "stock": 60,
+      "featured": false,
+      "active": true,
+      "specs": [
+        {
+          "label": "Form",
+          "value": "Powder"
+        },
+        {
+          "label": "Net quantity",
+          "value": "100 g"
+        },
+        {
+          "label": "Shelf life",
+          "value": "36 months from manufacture"
+        },
+        {
+          "label": "Diet type",
+          "value": "Vegetarian"
+        },
+        {
+          "label": "Country of origin",
+          "value": "India"
+        },
+        {
+          "label": "Storage",
+          "value": "Store in a cool, dry place away from sunlight"
+        }
+      ],
+      "ingredients": "Hing, Shunthi, Maricha, Pippali, Ajwain, Jeera, Saindhava Lavana",
+      "usage": "1/2 teaspoon with the first bite of food or with buttermilk after meals.",
+      "tags": [
+        "digestion",
+        "powder"
+      ]
+    },
+    {
+      "id": "aloe-juice",
+      "name": "Aloe Vera Juice",
+      "categoryId": "digestion",
+      "brand": "Ayur Naturals",
+      "shortDesc": "Fresh-pressed aloe vera juice with pulp.",
+      "description": "Made from the inner gel of fresh Aloe barbadensis leaves. A refreshing herbal juice traditionally used to support digestion and skin wellness from within.",
+      "images": [
+        "images/products/aloe-juice.svg"
+      ],
+      "price": 249,
+      "mrp": 299,
+      "gst": 5,
+      "unit": "1 L",
+      "stock": 55,
+      "featured": false,
+      "active": true,
+      "specs": [
+        {
+          "label": "Form",
+          "value": "Juice"
+        },
+        {
+          "label": "Net quantity",
+          "value": "1 L"
+        },
+        {
+          "label": "Shelf life",
+          "value": "36 months from manufacture"
+        },
+        {
+          "label": "Diet type",
+          "value": "Vegetarian"
+        },
+        {
+          "label": "Country of origin",
+          "value": "India"
+        },
+        {
+          "label": "Storage",
+          "value": "Store in a cool, dry place away from sunlight"
+        }
+      ],
+      "ingredients": "Aloe vera gel (99%), Citric acid",
+      "usage": "20 to 30 ml with water in the morning on an empty stomach.",
+      "tags": [
+        "digestion",
+        "juice"
+      ]
+    },
+    {
+      "id": "ashwagandha",
+      "name": "Ashwagandha Capsules",
+      "categoryId": "stress-sleep",
+      "brand": "Ayur Naturals",
+      "shortDesc": "Root extract capsules to support calm and stamina.",
+      "description": "Standardised Ashwagandha (Withania somnifera) root extract. A celebrated adaptogenic herb in Ayurveda, traditionally used to help the body adapt to everyday stress and support stamina.",
+      "images": [
+        "images/products/ashwagandha.svg"
+      ],
+      "price": 449,
+      "mrp": 549,
+      "gst": 5,
+      "unit": "60 capsules",
+      "stock": 60,
+      "featured": true,
+      "active": true,
+      "specs": [
+        {
+          "label": "Form",
+          "value": "Capsule"
+        },
+        {
+          "label": "Net quantity",
+          "value": "60 capsules"
+        },
+        {
+          "label": "Shelf life",
+          "value": "36 months from manufacture"
+        },
+        {
+          "label": "Diet type",
+          "value": "Vegetarian"
+        },
+        {
+          "label": "Country of origin",
+          "value": "India"
+        },
+        {
+          "label": "Storage",
+          "value": "Store in a cool, dry place away from sunlight"
+        }
+      ],
+      "ingredients": "Ashwagandha root extract 500 mg per capsule",
+      "usage": "1 capsule twice daily after meals with water or milk. Not recommended during pregnancy without medical advice.",
+      "tags": [
+        "stress-sleep",
+        "capsule"
+      ]
+    },
+    {
+      "id": "brahmi",
+      "name": "Brahmi Tablets",
+      "categoryId": "stress-sleep",
+      "brand": "Ayur Naturals",
+      "shortDesc": "Brahmi (Bacopa) tablets for focus and mental clarity.",
+      "description": "Brahmi is a classic medhya rasayana herb traditionally used to support memory, focus and mental well-being.",
+      "images": [
+        "images/products/brahmi.svg"
+      ],
+      "price": 329,
+      "mrp": 399,
+      "gst": 5,
+      "unit": "60 tablets",
+      "stock": 70,
+      "featured": false,
+      "active": true,
+      "specs": [
+        {
+          "label": "Form",
+          "value": "Tablet"
+        },
+        {
+          "label": "Net quantity",
+          "value": "60 tablets"
+        },
+        {
+          "label": "Shelf life",
+          "value": "36 months from manufacture"
+        },
+        {
+          "label": "Diet type",
+          "value": "Vegetarian"
+        },
+        {
+          "label": "Country of origin",
+          "value": "India"
+        },
+        {
+          "label": "Storage",
+          "value": "Store in a cool, dry place away from sunlight"
+        }
+      ],
+      "ingredients": "Brahmi (Bacopa monnieri) extract 400 mg per tablet",
+      "usage": "1 tablet twice daily after meals with water.",
+      "tags": [
+        "stress-sleep",
+        "tablet"
+      ]
+    },
+    {
+      "id": "shankhpushpi",
+      "name": "Shankhpushpi Syrup",
+      "categoryId": "stress-sleep",
+      "brand": "Ayur Naturals",
+      "shortDesc": "Soothing herbal syrup for evening calm.",
+      "description": "A traditional syrup of Shankhpushpi, known in Ayurveda as a mind-calming herb. A gentle addition to a relaxing bedtime routine.",
+      "images": [
+        "images/products/shankhpushpi.svg"
+      ],
+      "price": 209,
+      "mrp": 249,
+      "gst": 5,
+      "unit": "200 ml",
+      "stock": 65,
+      "featured": false,
+      "active": true,
+      "specs": [
+        {
+          "label": "Form",
+          "value": "Syrup"
+        },
+        {
+          "label": "Net quantity",
+          "value": "200 ml"
+        },
+        {
+          "label": "Shelf life",
+          "value": "36 months from manufacture"
+        },
+        {
+          "label": "Diet type",
+          "value": "Vegetarian"
+        },
+        {
+          "label": "Country of origin",
+          "value": "India"
+        },
+        {
+          "label": "Storage",
+          "value": "Store in a cool, dry place away from sunlight"
+        }
+      ],
+      "ingredients": "Shankhpushpi, Brahmi, Jatamansi, Sugar-free base",
+      "usage": "2 teaspoons (10 ml) once or twice daily, or as directed by the physician.",
+      "tags": [
+        "stress-sleep",
+        "syrup"
+      ]
+    },
+    {
+      "id": "bhringraj-oil",
+      "name": "Bhringraj Hair Oil",
+      "categoryId": "hair-skin",
+      "brand": "Ayur Naturals",
+      "shortDesc": "Cold-infused Bhringraj and Amla oil in a sesame base.",
+      "description": "Slow-infused in sesame oil with Bhringraj, Amla and Brahmi. Traditionally massaged into the scalp to nourish hair roots and promote a calm, cool scalp.",
+      "images": [
+        "images/products/bhringraj-oil.svg"
+      ],
+      "price": 299,
+      "mrp": 349,
+      "gst": 5,
+      "unit": "200 ml",
+      "stock": 70,
+      "featured": true,
+      "active": true,
+      "specs": [
+        {
+          "label": "Form",
+          "value": "Oil"
+        },
+        {
+          "label": "Net quantity",
+          "value": "200 ml"
+        },
+        {
+          "label": "Shelf life",
+          "value": "36 months from manufacture"
+        },
+        {
+          "label": "Diet type",
+          "value": "Vegetarian"
+        },
+        {
+          "label": "Country of origin",
+          "value": "India"
+        },
+        {
+          "label": "Storage",
+          "value": "Store in a cool, dry place away from sunlight"
+        }
+      ],
+      "ingredients": "Bhringraj, Amla, Brahmi, Neem, Sesame oil, Coconut oil",
+      "usage": "Warm slightly and massage into scalp 2 to 3 times a week. Leave for 1 hour or overnight and wash.",
+      "tags": [
+        "hair-skin",
+        "oil"
+      ]
+    },
+    {
+      "id": "kumkumadi",
+      "name": "Kumkumadi Face Oil",
+      "categoryId": "hair-skin",
+      "brand": "Ayur Naturals",
+      "shortDesc": "Classical saffron face oil for a natural glow.",
+      "description": "A classical Ayurvedic facial oil with saffron, sandalwood and manjistha, traditionally used for glowing, even-looking skin.",
+      "images": [
+        "images/products/kumkumadi.svg"
+      ],
+      "price": 749,
+      "mrp": 899,
+      "gst": 5,
+      "unit": "30 ml",
+      "stock": 50,
+      "featured": false,
+      "active": true,
+      "specs": [
+        {
+          "label": "Form",
+          "value": "Oil"
+        },
+        {
+          "label": "Net quantity",
+          "value": "30 ml"
+        },
+        {
+          "label": "Shelf life",
+          "value": "36 months from manufacture"
+        },
+        {
+          "label": "Diet type",
+          "value": "Vegetarian"
+        },
+        {
+          "label": "Country of origin",
+          "value": "India"
+        },
+        {
+          "label": "Storage",
+          "value": "Store in a cool, dry place away from sunlight"
+        }
+      ],
+      "ingredients": "Kesar (Saffron), Chandan, Manjistha, Lodhra, Sesame oil",
+      "usage": "2 to 3 drops massaged onto clean face at night. Patch-test before first use.",
+      "tags": [
+        "hair-skin",
+        "oil"
+      ]
+    },
+    {
+      "id": "neem-capsules",
+      "name": "Neem Capsules",
+      "categoryId": "hair-skin",
+      "brand": "Ayur Naturals",
+      "shortDesc": "Pure Neem leaf extract for clear skin support.",
+      "description": "Neem (Azadirachta indica) is traditionally valued in Ayurveda for supporting skin clarity and blood-purifying routines.",
+      "images": [
+        "images/products/neem-capsules.svg"
+      ],
+      "price": 279,
+      "mrp": 349,
+      "gst": 5,
+      "unit": "60 capsules",
+      "stock": 70,
+      "featured": false,
+      "active": true,
+      "specs": [
+        {
+          "label": "Form",
+          "value": "Capsule"
+        },
+        {
+          "label": "Net quantity",
+          "value": "60 capsules"
+        },
+        {
+          "label": "Shelf life",
+          "value": "36 months from manufacture"
+        },
+        {
+          "label": "Diet type",
+          "value": "Vegetarian"
+        },
+        {
+          "label": "Country of origin",
+          "value": "India"
+        },
+        {
+          "label": "Storage",
+          "value": "Store in a cool, dry place away from sunlight"
+        }
+      ],
+      "ingredients": "Neem leaf extract 500 mg per capsule",
+      "usage": "1 capsule twice daily after meals with water.",
+      "tags": [
+        "hair-skin",
+        "capsule"
+      ]
+    },
+    {
+      "id": "mahanarayan",
+      "name": "Mahanarayan Massage Oil",
+      "categoryId": "joint-care",
+      "brand": "Ayur Naturals",
+      "shortDesc": "Classical oil for soothing joint and muscle massage.",
+      "description": "A classical Ayurvedic oil prepared with Ashwagandha, Bala, Shatavari and sesame oil, traditionally used for massage to ease stiff, tired muscles and joints.",
+      "images": [
+        "images/products/mahanarayan.svg"
+      ],
+      "price": 249,
+      "mrp": 299,
+      "gst": 5,
+      "unit": "100 ml",
+      "stock": 60,
+      "featured": false,
+      "active": true,
+      "specs": [
+        {
+          "label": "Form",
+          "value": "Oil"
+        },
+        {
+          "label": "Net quantity",
+          "value": "100 ml"
+        },
+        {
+          "label": "Shelf life",
+          "value": "36 months from manufacture"
+        },
+        {
+          "label": "Diet type",
+          "value": "Vegetarian"
+        },
+        {
+          "label": "Country of origin",
+          "value": "India"
+        },
+        {
+          "label": "Storage",
+          "value": "Store in a cool, dry place away from sunlight"
+        }
+      ],
+      "ingredients": "Bala, Ashwagandha, Shatavari, Bilva, Sesame oil",
+      "usage": "Warm gently and massage on the affected area twice daily. For external use only.",
+      "tags": [
+        "joint-care",
+        "oil"
+      ]
+    },
+    {
+      "id": "guggul",
+      "name": "Guggul Joint Tablets",
+      "categoryId": "joint-care",
+      "brand": "Ayur Naturals",
+      "shortDesc": "Guggulu and Shallaki blend for joint comfort.",
+      "description": "Combines Guggul resin with Shallaki and Nirgundi, herbs traditionally used in Ayurveda to support joint comfort and flexibility.",
+      "images": [
+        "images/products/guggul.svg"
+      ],
+      "price": 369,
+      "mrp": 449,
+      "gst": 5,
+      "unit": "60 tablets",
+      "stock": 70,
+      "featured": false,
+      "active": true,
+      "specs": [
+        {
+          "label": "Form",
+          "value": "Tablet"
+        },
+        {
+          "label": "Net quantity",
+          "value": "60 tablets"
+        },
+        {
+          "label": "Shelf life",
+          "value": "36 months from manufacture"
+        },
+        {
+          "label": "Diet type",
+          "value": "Vegetarian"
+        },
+        {
+          "label": "Country of origin",
+          "value": "India"
+        },
+        {
+          "label": "Storage",
+          "value": "Store in a cool, dry place away from sunlight"
+        }
+      ],
+      "ingredients": "Shuddha Guggulu, Shallaki, Nirgundi, Haridra",
+      "usage": "2 tablets twice daily after meals with warm water.",
+      "tags": [
+        "joint-care",
+        "tablet"
+      ]
+    },
+    {
+      "id": "turmeric",
+      "name": "Turmeric Curcumin Capsules",
+      "categoryId": "joint-care",
+      "brand": "Ayur Naturals",
+      "shortDesc": "Curcumin with black pepper for better absorption.",
+      "description": "High-curcumin turmeric extract combined with piperine (black pepper extract), traditionally used to support joint comfort and overall wellness.",
+      "images": [
+        "images/products/turmeric.svg"
+      ],
+      "price": 399,
+      "mrp": 499,
+      "gst": 5,
+      "unit": "60 capsules",
+      "stock": 45,
+      "featured": true,
+      "active": true,
+      "specs": [
+        {
+          "label": "Form",
+          "value": "Capsule"
+        },
+        {
+          "label": "Net quantity",
+          "value": "60 capsules"
+        },
+        {
+          "label": "Shelf life",
+          "value": "36 months from manufacture"
+        },
+        {
+          "label": "Diet type",
+          "value": "Vegetarian"
+        },
+        {
+          "label": "Country of origin",
+          "value": "India"
+        },
+        {
+          "label": "Storage",
+          "value": "Store in a cool, dry place away from sunlight"
+        }
+      ],
+      "ingredients": "Turmeric extract (95% curcuminoids) 500 mg, Piperine 5 mg",
+      "usage": "1 capsule twice daily after meals with water.",
+      "tags": [
+        "joint-care",
+        "capsule"
+      ]
+    },
+    {
+      "id": "amla-juice",
+      "name": "Amla Juice",
+      "categoryId": "tonics",
+      "brand": "Ayur Naturals",
+      "shortDesc": "Vitamin C rich Indian gooseberry juice.",
+      "description": "Cold-pressed juice of fresh Indian gooseberry (Amla), one of the richest natural sources of Vitamin C, traditionally used in daily wellness routines.",
+      "images": [
+        "images/products/amla-juice.svg"
+      ],
+      "price": 299,
+      "mrp": 349,
+      "gst": 5,
+      "unit": "1 L",
+      "stock": 55,
+      "featured": false,
+      "active": true,
+      "specs": [
+        {
+          "label": "Form",
+          "value": "Juice"
+        },
+        {
+          "label": "Net quantity",
+          "value": "1 L"
+        },
+        {
+          "label": "Shelf life",
+          "value": "36 months from manufacture"
+        },
+        {
+          "label": "Diet type",
+          "value": "Vegetarian"
+        },
+        {
+          "label": "Country of origin",
+          "value": "India"
+        },
+        {
+          "label": "Storage",
+          "value": "Store in a cool, dry place away from sunlight"
+        }
+      ],
+      "ingredients": "Amla fruit juice (99%)",
+      "usage": "20 to 30 ml with water once daily, preferably in the morning.",
+      "tags": [
+        "tonics",
+        "juice"
+      ]
+    },
+    {
+      "id": "shilajit",
+      "name": "Pure Shilajit Resin",
+      "categoryId": "tonics",
+      "brand": "Ayur Naturals",
+      "shortDesc": "Purified Himalayan Shilajit resin.",
+      "description": "Traditionally purified (Shodhita) Shilajit resin, used in Ayurveda as a rasayana to support strength and stamina.",
+      "images": [
+        "images/products/shilajit.svg"
+      ],
+      "price": 849,
+      "mrp": 999,
+      "gst": 5,
+      "unit": "20 g",
+      "stock": 45,
+      "featured": true,
+      "active": true,
+      "specs": [
+        {
+          "label": "Form",
+          "value": "Resin"
+        },
+        {
+          "label": "Net quantity",
+          "value": "20 g"
+        },
+        {
+          "label": "Shelf life",
+          "value": "36 months from manufacture"
+        },
+        {
+          "label": "Diet type",
+          "value": "Vegetarian"
+        },
+        {
+          "label": "Country of origin",
+          "value": "India"
+        },
+        {
+          "label": "Storage",
+          "value": "Store in a cool, dry place away from sunlight"
+        }
+      ],
+      "ingredients": "Purified Shilajit resin",
+      "usage": "A pea-sized portion (around 300 mg) dissolved in warm water or milk once daily in the morning.",
+      "tags": [
+        "tonics",
+        "resin"
+      ]
+    },
+    {
+      "id": "forest-honey",
+      "name": "Raw Forest Honey",
+      "categoryId": "tonics",
+      "brand": "Ayur Naturals",
+      "shortDesc": "Unprocessed forest honey, never heated.",
+      "description": "Raw, unheated honey collected from forest hives. Enjoy with warm water, in kadha or as a natural sweetener.",
+      "images": [
+        "images/products/forest-honey.svg"
+      ],
+      "price": 399,
+      "mrp": 449,
+      "gst": 5,
+      "unit": "500 g",
+      "stock": 65,
+      "featured": false,
+      "active": true,
+      "specs": [
+        {
+          "label": "Form",
+          "value": "Honey"
+        },
+        {
+          "label": "Net quantity",
+          "value": "500 g"
+        },
+        {
+          "label": "Shelf life",
+          "value": "36 months from manufacture"
+        },
+        {
+          "label": "Diet type",
+          "value": "Vegetarian"
+        },
+        {
+          "label": "Country of origin",
+          "value": "India"
+        },
+        {
+          "label": "Storage",
+          "value": "Store in a cool, dry place away from sunlight"
+        }
+      ],
+      "ingredients": "100% raw honey",
+      "usage": "1 teaspoon once or twice daily. Not for infants under 12 months.",
+      "tags": [
+        "tonics",
+        "honey"
+      ]
+    }
+  ],
+  "banners": [
+    {
+      "id": "b1",
+      "title": "Immunity Season Sale",
+      "subtitle": "Flat 15% off on Chyawanprash, Giloy & Tulsi",
+      "cta": "Shop Immunity",
+      "link": "/products?category=immunity",
+      "from": "#1F7A4D",
+      "to": "#6CC48F",
+      "emoji": "🌿",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "b2",
+      "title": "Sleep Better. Stress Less.",
+      "subtitle": "Ashwagandha, Brahmi & Shankhpushpi - nature's calm",
+      "cta": "Explore Calm",
+      "link": "/products?category=stress-sleep",
+      "from": "#4B3F9E",
+      "to": "#9A8CE8",
+      "emoji": "🌙",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "b3",
+      "title": "Free Delivery over ₹499",
+      "subtitle": "Cash on Delivery available across India",
+      "cta": "Start Shopping",
+      "link": "/products",
+      "from": "#C2701B",
+      "to": "#F2B25C",
+      "emoji": "🚚",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "b4",
+      "title": "Pure. Traditional. Trusted.",
+      "subtitle": "Authentic Ayurvedic wellness, delivered to your door",
+      "cta": "Our Story",
+      "link": "/about",
+      "from": "#8A3B3B",
+      "to": "#E58A7B",
+      "emoji": "🪔",
+      "image": "",
+      "active": true
+    }
+  ],
+  "coupons": [
+    {
+      "id": "c1",
+      "code": "WELCOME10",
+      "type": "percent",
+      "value": 10,
+      "minOrder": 499,
+      "maxDiscount": 150,
+      "active": true,
+      "description": "10% off on orders above ₹499 (max ₹150)"
+    },
+    {
+      "id": "c2",
+      "code": "HERBAL50",
+      "type": "flat",
+      "value": 50,
+      "minOrder": 799,
+      "maxDiscount": 0,
+      "active": true,
+      "description": "Flat ₹50 off on orders above ₹799"
+    }
+  ],
+  "reviews": [],
+  "faqs": [
+    {
+      "q": "How do I place an order?",
+      "a": "Add products to your cart, sign in or create an account, enter your delivery details and place the order. You will receive an invoice by email."
+    },
+    {
+      "q": "Which payment methods do you accept?",
+      "a": "Depending on the store settings you can pay by Cash on Delivery, UPI, QR scan or card. When online payment is switched off, simply send your order by Email or WhatsApp and we will confirm payment details with you."
+    },
+    {
+      "q": "How long does delivery take?",
+      "a": "Orders are usually dispatched within 1 to 2 working days. Delivery takes 3 to 7 working days depending on your location."
+    },
+    {
+      "q": "Can I return a product?",
+      "a": "Unopened and unused products can be returned within 7 days of delivery. Please contact us with your order number."
+    },
+    {
+      "q": "Are these products a substitute for medical advice?",
+      "a": "No. Ayurvedic products support general wellness and are not a substitute for professional medical advice, diagnosis or treatment. Please consult a qualified physician, especially if you are pregnant, nursing, on medication or have a medical condition."
+    },
+    {
+      "q": "I forgot my password. What can I do?",
+      "a": "Use \"Forgot password\" on the login page and confirm your registered email and mobile number to set a new password."
+    }
+  ],
+  "admin": {
+    "username": "admin",
+    "salt": "ak-admin-seed-salt",
+    "hash": "0e267ba76e5c2a850630016cd47888bce82ea80670753a6e7b1efcaf31f7d9ee"
+  }
+}
